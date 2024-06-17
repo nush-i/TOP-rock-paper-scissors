@@ -1,0 +1,20 @@
+.header-title{
+  background-color: #ade090;
+  display: flex;
+  color: white;
+  justify-content: center;
+  font-family: 'Tahoma';
+  font-size: 32px;
+  font-weight: bolder;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+}
+
+.score-text{
+  background-color: #dec076;
+  color: white;
+
+}
