@@ -63,6 +63,8 @@ function restart(){
     computerScore = 0;
     roundResult = '';
     finalResult = '';
+    computerChoice  = '';
+    humanChoice = '';
 
     updateComputerScore(computerScore);
     updateHumanScore(humanScore);
@@ -83,6 +85,8 @@ let humanScore = 0;
 let computerScore = 0;
 let roundResult = '';
 let finalResult = '';
+let humanChoice  = '';
+let computerChoice = '';
 
 
 function playRound(humanChoice, computerChoice) {
