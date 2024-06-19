@@ -89,7 +89,7 @@ footer{
   background-color: #BDE0FE;
 }
 
-@media (max-width: 500px) {
+@media (max-width: 200px) {
   .rock button,
   .paper button,
   .scissors button {
