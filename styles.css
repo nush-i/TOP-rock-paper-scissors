@@ -31,6 +31,7 @@ body {
 #instructions{
   font-size: 20px;
 }
+
 .scoring{
   display: flex;
   justify-content:space-around;
@@ -125,7 +126,7 @@ footer{
     font-size: 20px;
   }
 
-  #instructions{
+  .score-text #instructions{
     font-size: 16px;
   }
 
