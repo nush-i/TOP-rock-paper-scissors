@@ -15,6 +15,7 @@
 body {
   margin: 0;
   min-height: 100vh;
+  padding: 10px;
 }
 
 .score-text{
@@ -64,7 +65,7 @@ body {
 
 .third-container button:hover::after{
   content: attr(title);
-  position: relative;
+  position: absolute;
   bottom: -20px;
   font-size: 20px;
 }
@@ -73,12 +74,13 @@ body {
   justify-content:space-around;
   background-color: #ffc8dd;
   color: white;
+
 }
 
 .rock button, .paper button, .scissors button{
   font-size: 100px;
   cursor: pointer;
-  position: relative;
+  position: absolute;
   background-color: #cdb4db;
   border-radius: 10px;
   border: none;
@@ -109,7 +111,15 @@ footer{
     font-size: 10px;
   }
 
+  .third-container{
+    padding: 0 0 40px 0;
+  }
+
   .header-title{
     font-size: 20px;
+  }
+
+  .scoring{
+    font-size: 16px;;
   }
 }
