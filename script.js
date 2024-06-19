@@ -79,13 +79,13 @@ function playRound(humanChoice, computerChoice) {
         roundResult = 'Tie!'
     }
     else if (humanChoice === "rock" && computerChoice === "paper" || humanChoice === "paper" && computerChoice === "scissors" || humanChoice === "scissors" && computerChoice === "rock"){
-        humanScore++;
+        computerScore++;
         roundResult= 'Computer Won!';
         
         
     }
     else if (humanChoice === "paper" && computerChoice === "rock" || humanChoice === "scissors" && computerChoice === "paper" || humanChoice === "rock" && computerChoice === "scissors"){
-        computerScore++;
+        humanScore++;
         roundResult= 'Player Won!';
         
     }
