@@ -88,3 +88,9 @@ footer{
   align-items: center;
   background-color: #BDE0FE;
 }
+
+@media (max-width: 200px) {
+  .third-container {
+    font-size: 50%;
+  }
+}
