@@ -83,6 +83,7 @@ body {
   border: none;
   padding: 0;
   margin: 0;
+  box-sizing: border-box;
 }
 
 footer{
@@ -104,5 +105,9 @@ footer{
   .third-container button:hover::after{
     bottom: 0px;
     font-size: 10px;
+  }
+
+  .header-title{
+    font-size: 36px;
   }
 }
