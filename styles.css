@@ -89,8 +89,10 @@ footer{
   background-color: #BDE0FE;
 }
 
-@media (max-width: 200px) {
-  .third-container {
-    font-size: 50%;
+@media (max-width: 500px) {
+  .rock button,
+  .paper button,
+  .scissors button {
+    font-size: 50px;
   }
 }
