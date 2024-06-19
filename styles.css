@@ -124,11 +124,11 @@ footer{
     font-size: 20px;
   }
 
-  .round-result, .final-result, .computer, .player{
+  .computer, .player, .round-result, .final-result{
     font-size: 10px;
   }
 
   #instructions{
-    font-size: 8px;
+    font-size: 16px;
   }
 }
