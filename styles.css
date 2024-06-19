@@ -9,6 +9,7 @@
   font-size: 48px;
   font-weight: bold;
   margin: 0;
+  width: 100%;
 }
 
 body {
@@ -100,6 +101,7 @@ footer{
     font-size: 50px;
     padding: 0;
     margin: 0;
+    width: 50px;
   }
 
   .third-container button:hover::after{
@@ -108,6 +110,6 @@ footer{
   }
 
   .header-title{
-    font-size: 36px;
+    font-size: 30px;
   }
 }
