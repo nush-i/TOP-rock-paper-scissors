@@ -70,7 +70,6 @@ body {
   justify-content:space-around;
   background-color: #ffc8dd;
   color: white;
-  padding: 0 0 50px 0;
 }
 
 .rock button, .paper button, .scissors button{
@@ -89,10 +88,15 @@ footer{
   background-color: #BDE0FE;
 }
 
-@media (max-width: 200px) {
+@media (max-width: 600px) {
   .rock button,
   .paper button,
   .scissors button {
     font-size: 50px;
+  }
+
+  .third-container button:hover::after{
+    bottom: 0px;
+    font-size: 10px;
   }
 }
