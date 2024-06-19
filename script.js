@@ -16,6 +16,16 @@ function updateFinalResult(final){
     finalResult.textContent = `Final result: ${final}`;
   }
 
+function updateComputer(computer){
+    const computerResult = document.querySelector(".computer");
+    computerResult.textContent = `Computer: ${computer}`;
+  }
+
+function updateHuman(human){
+    const humanResult = document.querySelector(".player");
+    humanResult.textContent = `Player: ${human}`;
+  }
+
 function getComputerChoice(){
     let randomNumber = Math.floor(Math.random()*3)
     switch(randomNumber){
@@ -58,6 +68,8 @@ function restart(){
     updateHumanScore(humanScore);
     updateRoundResult(roundResult);
     updateFinalResult(finalResult);
+    updateComputer(computerChoice);
+    updateHuman(humanChoice);
 
     document.querySelectorAll('.third-container button').forEach(button => {
         button.disabled = false;
@@ -97,6 +109,8 @@ function playRound(humanChoice, computerChoice) {
     updateComputerScore(computerScore);
     updateHumanScore(humanScore);
     updateRoundResult(roundResult);
+    updateComputer(computerChoice);
+    updateHuman(humanChoice);
 
     console.log("Human Choice: ", humanChoice);
     console.log("Computer Choice: ", computerChoice);
