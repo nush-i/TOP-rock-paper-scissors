@@ -2,8 +2,14 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8">
-    <title>Nushi Rock Paper Scissors Webpage</title>
+    <title>Nushi's Rock Paper Scissors Webpage</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Aladin&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Paprika&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css" />
   </head>
 
@@ -12,11 +18,44 @@
       <div class="header-title">
         <p>ROCK PAPER SCISSORS</p>
       </div>
-      <div class="second-container">
-        <div class="score-text">
-          <p>Please pick from: rock, paper scissors!</p>
-          <p>First to score 5 points win</p>
+    </div>
+    <div class="second-container">
+      <div class="score-text">
+        <p>Please pick from: rock, paper scissors!<br>
+        First to score 5 points wins</p>
+      </div>
+    </div>
+      <div class="third-container">
+        <div class="rock">
+          <button title="rock">🪨</button>
         </div>
+        <div class="paper">
+          <button title="paper">📄</button>
+        </div>
+        <div class="scissors">
+          <button title="scissors">✂️</button>
+        </div>
+      </div>
+      <script>src="script.js"</script>
+      <div class="scoring">
+        <div class="human-score">
+          <p class="human-emoji">🕴🏼</p>
+          <p class="player-name">Player</p>
+          <p class="human-score">Score: 0</p>
+        </div>
+        <div class="result">
+          <p>Round result: </p>
+          <p>Final result: </p>
+        </div>
+        <div class="computer-score">
+          <p class="computer-emoji">💻</p>
+          <p class="player-name">Computer</p>
+          <p class="computer-score">Score: 0</p>
+        </div>
+      </div>
+      <footer>
+        <p>Nushi's Rock Paper Scissors Webpage</p>
+      </footer>
+      <script src="script.js"></script>
   </body>
-
 </html>
