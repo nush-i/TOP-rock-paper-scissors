@@ -126,4 +126,8 @@ footer{
   .round-result, .final-result, .computer-result, .human-result{
     font-size: 16px;
   }
+
+  #instructions{
+    font-size: 16px;
+  }
 }
